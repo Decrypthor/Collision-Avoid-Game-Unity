@@ -10,7 +10,8 @@ public class CollisionObject : MonoBehaviour
         
         if (collisioninfo.collider.tag == "Obstacle")
         {
-            movement.enabled = false;
+             
+            FindObjectOfType<GameManager>().GameOver();
         }
     }
 }

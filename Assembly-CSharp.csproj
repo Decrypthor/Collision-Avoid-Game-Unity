@@ -60,9 +60,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\CollisionObject.cs" />
-    <Compile Include="Assets\FollowPlayer.cs" />
-    <Compile Include="Assets\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\CollisionObject.cs" />
+    <Compile Include="Assets\Scripts\EndTrigger.cs" />
+    <Compile Include="Assets\Scripts\FollowPlayer.cs" />
+    <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\Score.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/Richie/First Game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
